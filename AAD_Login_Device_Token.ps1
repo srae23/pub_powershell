@@ -26,5 +26,5 @@ $TokenParameters = @{
 $TokenRequest = Invoke-RestMethod @TokenParameters
 $Token = $TokenRequest.access_token
 
-# then just authenticate using the token option
+# then just authenticate using the token option and edit as required below with your username and Tenant ID
 Connect-AzureAD -AadAccessToken $Token -AccountId username@yourtenant.onmicrosoft.com -TenantId ########-####-####-####-############
