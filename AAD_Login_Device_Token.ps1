@@ -1,6 +1,7 @@
+# You can use this script to perform a device based authentication to Azure AD - useful if you are using a FIDO based MFA token that is unsupported by the powershell module you are using
 $ClientID = '1b730954-1685-4b74-9bfd-dac224a7b894'
 $TenantID = 'common'
-$Resource = 'https://graph.windows.net/' #Service Endpoint for Azure AD Graph
+$Resource = 'https://graph.windows.net/' # Service Endpoint for Azure AD Graph
 
 $DeviceCodeParameters = @{
     Method = 'POST'
