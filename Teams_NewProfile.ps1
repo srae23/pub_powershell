@@ -1,4 +1,4 @@
-# Launch a second instance of Teams desktop to allow simultaneious sign-in across multiple accounts / tenants
+# Launch a second instance of the Teams desktop app to allow simultaneious sign-in across multiple accounts / tenants
 
 # Uses the file name as the profile name
 $MSTEAMS_PROFILE = 'NewProfile'
